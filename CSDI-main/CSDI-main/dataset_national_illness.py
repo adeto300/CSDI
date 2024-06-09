@@ -118,7 +118,7 @@ def get_dataloader(data, seed=1, nfold=None, batch_size=16, missing_ratio=0.1):
     return train_loader, valid_loader, test_loader
 
 # Load the CSV data
-data = pd.read_csv("/mnt/data/national_illness.csv")
+#data = pd.read_csv("/mnt/data/national_illness.csv")
 
 # Example usage
-train_loader, valid_loader, test_loader = get_dataloader(data, seed=1, nfold=0, batch_size=16, missing_ratio=0.1)
+#train_loader, valid_loader, test_loader = get_dataloader(data, seed=1, nfold=0, batch_size=16, missing_ratio=0.1)
